@@ -8,10 +8,27 @@
   </head>
   <body>
     <div class="screen">
+      <h1>Jeu de click</h1>
+      <a href="#" class="start" id="start">Commencez une nouvelle partie</a>
+    </div>
+    <div class="screen">
+      <h1>Choisissez la durée</h1>
+      <ul class="time-list" id="time-list">
+        <li>
+          <button
+              class="time-btn"
+              data-time="30"
+          >
+            30 sec
+          </button>
+        </li>
+      </ul>
+    </div>
+      
+    <div class="screen">
       <h3>Chronomètre: <span id="time">00:00</span></h3>
       <div class="board" id="board"></div>
     </div>
-    <div class="box"></div>
     <script src="jeu.js"></script>
   </body>
 </html>
